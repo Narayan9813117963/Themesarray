@@ -1,7 +1,9 @@
 .hero-section {
     background-image: url(../../images/hero-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 932px;
+    background-position: right top;
     .hero-text {
         top: 50%;
         transform: translateY(-50%);
@@ -323,5 +325,11 @@
             }
         }
         
+    }
+}
+@media screen and (max-width: 1200px) {
+    .hero-section{
+        background-size: unset;
+        background-position: unset;
     }
 }

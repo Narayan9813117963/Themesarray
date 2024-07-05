@@ -9,13 +9,13 @@
         </div>
     </div>
     <figure class="position-absolute hero-circle left-25">
-        <img src="images/hero-circle" alt="hero-animate">
+        <img src="images/hero-circle.png" alt="hero-animate">
     </figure>
     <figure class="position-absolute hero-square">
-        <img src="images/hero-square" alt="hero-animate">
+        <img src="images/hero-square.png" alt="hero-animate">
     </figure>
     <figure class="position-absolute hero-triangle">
-        <img src="images/hero-triangle" alt="hero-animate">
+        <img src="images/hero-triangle.png" alt="hero-animate">
     </figure>
 </main>
 <section class="small-feature custom-container-sm">

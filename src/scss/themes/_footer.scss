@@ -80,3 +80,13 @@
         }
     }
 }
+@media screen and (max-width: 768px) {
+    .footer-bg, .footer-bg-down{
+        width: 100px;
+        height: unset !important;
+    }
+    .footer-bg-down{
+        bottom: 0;
+        top: unset !important;
+    }
+}

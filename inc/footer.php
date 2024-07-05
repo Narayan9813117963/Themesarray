@@ -1,8 +1,8 @@
 <footer class="footer-wrapper position-relative">
-    <figure class="position-absolute top-0 left-0 h-100">
+    <figure class="position-absolute top-0 left-0 h-100 footer-bg">
         <img src="../images/footer-left-shape.png" alt="shape">
     </figure>
-    <figure class="position-absolute top-0 end-0 h-100">
+    <figure class="position-absolute top-0 end-0 h-100 footer-bg-down">
         <img src="../images/footer-right-shape.png" alt="shape">
     </figure>
     <div class="custom-container">

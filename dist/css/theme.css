@@ -201,7 +201,6 @@ img {
   .products-wrapper .product-list .category-items {
     display: flex; }
     .products-wrapper .product-list .category-items .product-card {
-      display: flex;
       max-width: 361px;
       padding: 22px;
       border-radius: 20px;
@@ -360,23 +359,20 @@ img {
   padding-top: 100px;
   padding-bottom: 56px; }
   .footer-wrapper .footer-logo {
-    width: 140px; }
+    max-width: 140px; }
   .footer-wrapper .footer-text {
     max-width: 80%;
     width: 100%; }
     .footer-wrapper .footer-text h4 {
       font-size: 24px;
       font-family: "montserrat";
-      font-weight: 400;
       padding: 16px 0; }
-      .footer-wrapper .footer-text h4 strong {
-        font-weight: 700; }
     .footer-wrapper .footer-text p a {
       color: #D72500; }
   .footer-wrapper .footer-link-head {
     font-family: "montserrat";
-    font-weight: 600;
-    font-size: 17px; }
+    font-size: 17px;
+    font-weight: 600; }
   .footer-wrapper .footer-link p {
     padding-bottom: 16px; }
   .footer-wrapper .footer-link li a {
@@ -406,7 +402,6 @@ img {
     padding-top: 46px; }
     .footer-wrapper .footer-bottom p, .footer-wrapper .footer-bottom a {
       font-family: "montserrat";
-      font-weight: 500;
       font-size: 14px;
       color: #293b5fa9; }
     .footer-wrapper .footer-bottom .terms {

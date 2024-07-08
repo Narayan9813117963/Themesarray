@@ -12,7 +12,7 @@
                     <img src="../images/logo.png" alt="logo">
                 </figure>
                 <div class="footer-text mx-auto mx-lg-0 text-center text-lg-start">
-                    <h4>Get <strong>ThemesArray </strong>and <strong>Create a
+                    <h4 class="fw-normal">Get <strong class="fw-bold">ThemesArray </strong>and <strong class="fw-bold">Create a
                     Professional </strong>Website Today!</h4>
                     <p>A single license includes <a href="#">free support</a>, <a href="#">free lifetime updates</a>, free plugins and all the features listed above.</p>
                 </div>
@@ -70,10 +70,10 @@
             </div>
         </div>
         <div class="footer-bottom d-flex justify-content-between flex-column flex-lg-row align-items-center align-items-lg-start">
-            <p>© 2018 Themesarray. All Right Reserved.</p>
+            <p class="fw-medium">© 2018 Themesarray. All Right Reserved.</p>
             <div class="terms d-flex">
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy policy</a>
+                <a class="fw-medium" href="#">Terms & Conditions</a>
+                <a class="fw-medium" href="#">Privacy policy</a>
             </div>
         </div>
     </div>

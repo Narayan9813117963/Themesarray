@@ -71,7 +71,7 @@
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-1.png" alt="product">
                         </figure>
                         <p>The words</p>
                     </a>
@@ -80,44 +80,44 @@
                     data-category="fashion">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-2.png" alt="product">
                         </figure>
-                        <p>The words</p>
+                        <p>TA Newspaper</p>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items ecommerce"
                     data-category="ecommerce">
-                    <a class="product-card flex-column justify-content-center align-items-center gap-3" href="#">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-3.png" alt="product">
                         </figure>
                         <p>The words</p>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items fashion"
                     data-category="fashion">
-                    <a class="product-card flex-column justify-content-center align-items-center gap-3" href="#">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-4.png" alt="product">
                         </figure>
-                        <p>The words</p>
+                        <p>The words Pro</p>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
-                    <a class="product-card flex-column justify-content-center align-items-center gap-3" href="#">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-5.png" alt="product">
                         </figure>
-                        <p>The words</p>
+                        <p>TA Newspapaer</p>
                     </a>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items sports"
                     data-category="sports">
-                    <a class="product-card flex-column justify-content-center align-items-center gap-3" href="#">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
-                            <img src="images/product-1.png" alt="product">
+                            <img src="images/products-thumb/product-6.png" alt="product">
                         </figure>
-                        <p>The words</p>
+                        <p>TA Newspapaer Pro</p>
                     </a>
                 </div>
             </div>
@@ -180,7 +180,7 @@
         </div>
     </div>
 </section>
-<section class="testimonial-section position-relative section-pad">
+<section class="testimonial-section position-relative z-1 section-pad">
     <figure class="background-shape position-absolute top-0 left-0 z-n1">
         <img src="images/testimonial-shape.png" alt="shape">
     </figure>
@@ -282,10 +282,34 @@
                         </figure>
                         <div class="blog-text">
                             <span class="fw-medium">Influencer</span>
-                            <h4>How Brands Can Break Barriers and Empower Creators</h4>
+                            <h4>How Brands Can Break Barriers and Empower Creators Potential</h4>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
                                 of
-                                the… </p>
+                                the...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-slider-1 d-flex justify-content-center">
+                    <div class="blog-card">
+                        <figure class="blog-thumb">
+                            <img src="images/blog-thumb-2.png" alt="thumb">
+                        </figure>
+                        <div class="blog-text">
+                            <span class="fw-medium">Traveller</span>
+                            <h4>Empowering Brands: Breaking Barriers to Amplify Creator Potential</h4>
+                            <p>In today's dynamic digital landscape, empowering creators is paramount for brands looking to thrive...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-slider-1 d-flex justify-content-center">
+                    <div class="blog-card">
+                        <figure class="blog-thumb">
+                            <img src="images/blog-thumb-3.png" alt="thumb">
+                        </figure>
+                        <div class="blog-text">
+                            <span class="fw-medium">Designer</span>
+                            <h4>Championing Creatives: Strategies for Brand-Creator Empowerment</h4>
+                            <p>Embark on a journey of empowerment as brands embrace collaborative strategies to unleash the full potential...</p>
                         </div>
                     </div>
                 </div>
@@ -299,35 +323,7 @@
                             <h4>How Brands Can Break Barriers and Empower Creators</h4>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
                                 of
-                                the… </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-slider-1 d-flex justify-content-center">
-                    <div class="blog-card">
-                        <figure class="blog-thumb">
-                            <img src="images/blog-thumb-1.png" alt="thumb">
-                        </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Influencer</span>
-                            <h4>How Brands Can Break Barriers and Empower Creators</h4>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
-                                of
-                                the… </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-slider-1 d-flex justify-content-center">
-                    <div class="blog-card">
-                        <figure class="blog-thumb">
-                            <img src="images/blog-thumb-1.png" alt="thumb">
-                        </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Influencer</span>
-                            <h4>How Brands Can Break Barriers and Empower Creators</h4>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
-                                of
-                                the… </p>
+                                the...</p>
                         </div>
                     </div>
                 </div>
@@ -336,5 +332,4 @@
     </div>
 
 </section>
-<!-- top-banner -->
 <?php include('inc/footer.php'); ?>

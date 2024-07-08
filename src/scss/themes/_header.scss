@@ -1,59 +1,71 @@
-.header{
-    padding: 20px 0;
-    transition: 0.2s all ease;
-    z-index: 999;
-    &.fixed{
-        background-color: #fff;
-        padding: 10px 0;
-        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.096);
+.header {
+  padding: 20px 0;
+  transition: 0.2s all ease;
+  z-index: 999;
+
+  &.fixed {
+    background-color: $global-white;
+    padding: 10px 0;
+    box-shadow: $first-box-shadow;
+  }
+
+    .logo {
+      max-width: 150px;
+      width: 100%;
     }
-    nav{
-    .logo{
-        max-width: 150px;
-        width: 100%;
-    }
-    .navbar{
-        padding-right: 76px;
-        ul{
-            gap: 36px;
-            li{
-                a{
-                    font-family: $poppins-semibold;
-                    font-size: 15px;
-                    color: $text-color;
-                }
-            }
+
+    .navbar {
+      padding-right: 76px;
+
+      ul {
+        gap: 36px;
+
+        li {
+          a {
+            font-family: $poppins-semibold;
+            font-size: 15px;
+            color: $text-color;
+          }
         }
+      }
     }
-    .buy-btn{
-            gap: 8px;
+
+    .buy-btn {
+      gap: 8px;
     }
-}
-.toggler-btn {
+
+  .toggler-btn {
     .bar-icon {
-    width: 28px;
+      width: 28px;
+
       span {
         height: 2px;
         background-color: $text-color;
       }
     }
- 
-}
 
-.offcanvas {
-  background-color: #ffffff;
-  height: 100vh !important;
+  }
 
+  .offcanvas {
+    background-color: $global-white;
+    height: 100vh !important;
+    max-width: 400px;
+    width: 100%;
 
-  .offcanvas-header {
-    .btn-close {
-      font-size: 20px;
+    .offcanvas-header {
+      .btn-close {
+        font-size: 20px;
+      }
+    }
+
+    .offcanvas-contents {
+      a {
+        font-family: $poppins-semibold;
+        border-radius: 10px;
+        &:hover{
+          background-color: $offcanvas-hover;
+        }
+      }
     }
   }
-  .offcanvas-contents{
-    a{
-      font-family: $poppins-semibold;
-    }
-  }
-}
 }

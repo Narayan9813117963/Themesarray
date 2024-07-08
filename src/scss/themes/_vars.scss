@@ -1,61 +1,14 @@
-@font-face {
-    font-family: 'montserrat';
-    src:url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.woff') format('woff'),
-        url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.woff2') format('woff2'),
-        url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.svg#Montserrat-VariableFont_wght') format('svg'),
-        url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.eot'),
-        url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
-        url('../../dist/css/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
-
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'poppins-regular';
-    src:url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff') format('woff'),
-        url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.woff2') format('woff2'),
-        url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.svg#Poppins-Regular') format('svg'),
-        url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.eot'),
-        url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../../dist/css/fonts/Poppins-Regular/Poppins-Regular.ttf') format('truetype');
-
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'poppins-semiBold';
-    src:url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.woff') format('woff'),
-        url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.woff2') format('woff2'),
-        url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.svg#Poppins-SemiBold') format('svg'),
-        url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.eot'),
-        url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../../dist/css/fonts/Poppins-SemiBold/Poppins-SemiBold.ttf') format('truetype');
-
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'poppins-italic';
-    src:url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.woff') format('woff'),
-        url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.woff2') format('woff2'),
-        url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.svg#Poppins-Italic') format('svg'),
-        url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.eot'),
-        url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../../dist/css/fonts/Poppins-Italic/Poppins-Italic.ttf') format('truetype');
-
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
+$global-white: #fff;
 $primary-color: #D72500;
 $text-color: #293B5F;
 $secondary-text-color: #00A59B;
+$product-bg: #F4FAFB;
+$feature-bg: #F8FEFE;
+$star-color: #F1F52A;
+$offcanvas-hover: #d8f6f6;
+$slider-text-color: #6A6A6A;
+$slider-border: rgba(215, 37, 0, 0.38);
+$blog-bg: rgba(248, 254, 254, 0.33);
 $montserrat-font: "montserrat";
 $poppins-regular: "poppins-regular";
 $poppins-semibold: "poppins-semiBold";
@@ -65,5 +18,5 @@ $h2-font-size: 36px;
 $h3-font-size: 32px;
 $h4-font-size: 18px;
 $paragraph-font-size: 16px;
-$first-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+$first-box-shadow: 0 4px 24px 0 rgba(103,151,255,.1),0 12px 64px 0 rgba(103,151,255,.1);
 $second-drop-shadow: 2px 2px 10.4px rgba(0, 0, 0, 0.25);

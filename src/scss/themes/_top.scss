@@ -2,16 +2,16 @@
     background-image: url(../../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 932px;
-    background-position: right top;
+    height: 950px;
     .hero-text {
-        top: 50%;
         transform: translateY(-50%);
+        z-index: 99;
         h1 {
             margin-bottom: 36px;
         }
 
         p {
+            margin-top: 10px;
             margin-bottom: 26px;
         }
         .primary-btn{
@@ -151,7 +151,6 @@
                 color: $secondary-text-color;
 
                 span {
-                    position: relative;
 
                     &::after {
                         position: absolute;
@@ -169,38 +168,39 @@
 
     .product-list {
         padding: 36px 0;
-        background-color: #F4FAFB;
+        background-color: $product-bg;
 
         .row {
             row-gap: 32px;
 
-            .col-lg-4 {
-                display: flex;
-            }
         }
-
-        .product-card {
+        .category-items{
             display: flex;
-            max-width: 361px;
-            padding: 22px;
-            border-radius: 20px;
-            background: #fff;
-            transition: 0.3s all ease;
-
-            .product-img {
-                max-width: 316px;
-                width: 100%;
-                height: 306px;
-            }
-
-            &:hover {
-                box-shadow: $first-box-shadow;
-            }
-            p{
-                font-family: $poppins-semibold;
+            .product-card {
+                display: flex;
+                max-width: 361px;
+                padding: 22px;
+                border-radius: 20px;
+                background:$global-white;
+                transition: 0.3s all ease;
+    
+                .product-img {
+                    max-width: 316px;
+                    width: 100%;
+                    height: 306px;
+                }
+    
+                &:hover {
+                    box-shadow: $first-box-shadow;
+                }
+                p{
+                    font-family: $poppins-semibold;
+                }
             }
         }
+
     }   
+    
 }
 
 .is-animated {
@@ -217,20 +217,18 @@
     }
 }
 .feature-section{
-    padding: 86px 0;
     background-image: url(../../../images/feature-bg.png);
     background-repeat: no-repeat;
-    background-color: #F8FEFE;
+    background-color: $feature-bg;
     h3{
-        width: 80%;
-        margin: auto;
+        max-width: 80%;
     }
     .feature-card{
         max-width: 334px;
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.24);
         border-radius: 8px;
-        background-color: #fff;
+        background-color:$global-white;
         padding: 28px 36px;
         margin-top: 70px;
         h4{
@@ -246,8 +244,7 @@
     }
 }
 .testimonial-section{
-    padding: 80px 0;
-    background-color: #FFF8F2;
+    background-color: $global-white;
     .testi-slider{
         .btn-for-slider{
             .prev-btn, .next-btn{
@@ -261,20 +258,20 @@
         .slider-main{
             .slide-card{
                 max-width: 422px;
-                border: 1px solid rgba(215, 37, 0, 0.38);
+                border: 1px solid $slider-border;
                 border-radius: 8px;
-                background-color: #fff;
+                background-color:$global-white;
                 padding: 20px 56px;
                 .star-wrapper{
                     i{
-                        color: #F1F52A;
+                        color: $star-color;
                     }
                 }
                 h4{
                     padding: 14px 0;
                 }
                 p{
-                    color: #6A6A6A;
+                    color: $slider-text-color;
                 }
                 span{
                     font-family: $poppins-itallic;
@@ -287,7 +284,7 @@
 }
 .blog-section{
     padding: 56px 0 ;
-    background-color: rgba(248, 254, 254, 0.33);
+    background-color: $blog-bg;
     background-image: url(../../images/blog-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -306,8 +303,8 @@
             .blog-card{
                 max-width: 340px;
                 width: 100%;
-                background-color: #fff;
-                box-shadow: $first-box-shadow;
+                background-color:$global-white;
+                box-shadow: $second-drop-shadow;
                 border-radius: 12px;
                 .blog-text{
                     padding: 10px 23px;
@@ -315,7 +312,6 @@
                         font-family: $montserrat-font;
                         color: $primary-color;
                         font-size: 14px;
-                        font-weight: 600;
                     }
                     h4{
                         margin-top: 12px;
@@ -332,4 +328,28 @@
         background-size: unset;
         background-position: unset;
     }
+}
+@media screen and (max-width: 576px) {
+    .feature-section {
+        h3{
+            max-width: 100%;
+        }
+    }
+    .testimonial-section {
+        .testi-slider{
+            .slider-main{
+                .slide-card{
+                    padding: 20px;
+                    max-width: 260px;
+                }
+            } 
+        } 
+    }
+    .blog-card{
+        max-width: 260px !important;
+    }
+    .footer-wrapper{
+        padding-top: 56px !important;
+    }
+
 }

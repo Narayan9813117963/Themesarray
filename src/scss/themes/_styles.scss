@@ -23,21 +23,16 @@ body{
 h1{
     font-family: $montserrat-font;
     font-size: $h1-font-size;
-    margin: 0;
     font-weight: 800;
 }
 h2{
     font-family: $montserrat-font;
     font-size: $h2-font-size;
-    font-weight: 700;
-    margin: 0;
     color: $secondary-text-color;
 }
 h3{
     font-family: $montserrat-font;
     font-size: $h3-font-size;
-    font-weight: 700;
-    margin: 0;
 }
 h4{
     font-family: $poppins-semibold;
@@ -55,6 +50,7 @@ li{
 a{
     color: unset;
     text-decoration: none;
+    color: $text-color;
 }
 .primary-btn{
     padding: 13px 25px;
@@ -63,7 +59,7 @@ a{
     font-family: $poppins-semibold;
     border-radius: 30px;
     box-shadow: $second-drop-shadow;
-    color: #fff;
+    color: $global-white;
     max-width: fit-content;
     transition: 0.3s all ease; 
     border: 1px solid transparent;
@@ -81,6 +77,9 @@ img{
     width: 100%;
     height: 100%;
 }
+.section-pad{
+    padding: 86px 0;
+}
 @media screen and (max-width: 1200px) {
 	.custom-container {
 		padding: 0 20px;
@@ -93,4 +92,12 @@ img{
 	.custom-container-sm {
 		padding: 0 20px;
 	}
+}
+@media screen and (max-width: 576px) {
+    h1{
+        font-size: 46px;
+    }
+    .section-pad{
+        padding: 40px 0;
+    }
 }

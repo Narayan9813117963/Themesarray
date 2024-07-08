@@ -180,7 +180,7 @@
         </div>
     </div>
 </section>
-<section class="testimonial-section position-relative z-1 section-pad">
+<section class="testimonial-section position-relative section-pad z-1">
     <figure class="background-shape position-absolute top-0 left-0 z-n1">
         <img src="images/testimonial-shape.png" alt="shape">
     </figure>

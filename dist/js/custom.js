@@ -64,6 +64,7 @@ $('.blog-slider').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
+  dots: false,
   nextArrow: ".next-blog-btn",
   prevArrow: ".prev-blog-btn",
   responsive: [

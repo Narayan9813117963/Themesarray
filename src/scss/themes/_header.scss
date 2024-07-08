@@ -3,15 +3,10 @@
   transition: 0.2s all ease;
   z-index: 999;
 
-  &.fixed {
-    background-color: $global-white;
-    padding: 10px 0;
-    box-shadow: $first-box-shadow;
-  }
-
     .logo {
       max-width: 150px;
       width: 100%;
+      transition: 0.3s all ease;
     }
 
     .navbar {
@@ -71,6 +66,17 @@
           background-color: $offcanvas-hover;
         }
       }
+    }
+  }
+  &.fixed {
+    background-color: $global-white;
+    padding: 0;
+    box-shadow: $first-box-shadow;
+    .logo{
+      scale: 0.8;
+    }
+    .buy-btn{
+      scale: 0.8;
     }
   }
 }

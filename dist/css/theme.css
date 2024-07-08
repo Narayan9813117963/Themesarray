@@ -272,7 +272,7 @@ img {
       margin-top: -56px; }
 
 .testimonial-section {
-  background-color: #fff; }
+  background-color: #FFF8F2; }
   .testimonial-section .testi-slider .btn-for-slider .prev-btn, .testimonial-section .testi-slider .btn-for-slider .next-btn {
     cursor: pointer;
     padding: 15px; }
@@ -346,13 +346,10 @@ img {
   padding: 20px 0;
   transition: 0.2s all ease;
   z-index: 999; }
-  .header.fixed {
-    background-color: #fff;
-    padding: 10px 0;
-    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, 0.1), 0 12px 64px 0 rgba(103, 151, 255, 0.1); }
   .header .logo {
     max-width: 150px;
-    width: 100%; }
+    width: 100%;
+    transition: 0.3s all ease; }
   .header .navbar {
     padding-right: 76px; }
     .header .navbar ul {
@@ -384,6 +381,14 @@ img {
       border-radius: 10px; }
       .header .offcanvas .offcanvas-contents a:hover {
         background-color: #d8f6f6; }
+  .header.fixed {
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, 0.1), 0 12px 64px 0 rgba(103, 151, 255, 0.1); }
+    .header.fixed .logo {
+      scale: 0.8; }
+    .header.fixed .buy-btn {
+      scale: 0.8; }
 
 @media screen and (max-width: 576px) {
   .header .logo {

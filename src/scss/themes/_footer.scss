@@ -1,5 +1,5 @@
 .footer-wrapper{
-    background-color: #F8FEFE;
+    background-color: $footer-bg;
     padding-top: 100px;
     padding-bottom: 56px;
     .footer-logo{
@@ -49,7 +49,7 @@
                 width: 40px;
                 height: 40px;
                 border-radius: 50px;
-                border: 1px solid rgba(47, 47, 47, 0.60);
+                border: 1px solid $social-link-border;
                 transition: 0.2s all ease;
                 i{
                     position: absolute;
@@ -61,7 +61,7 @@
                 &:hover{
                     background-color: $text-color;
                     i{
-                        color: #fff;
+                        color: $global-white;
                     }
                 }
             }
@@ -73,7 +73,7 @@
             font-family: $montserrat-font;
             font-weight: 500;
             font-size: 14px;
-            color: #293b5fa9;
+            color: $footer-bottom-text;
         }
         .terms{
             gap: 14px;

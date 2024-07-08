@@ -383,12 +383,12 @@ img {
         background-color: #d8f6f6; }
   .header.fixed {
     background-color: #fff;
-    padding: 0;
+    padding: 8px 0;
     box-shadow: 0 4px 24px 0 rgba(103, 151, 255, 0.1), 0 12px 64px 0 rgba(103, 151, 255, 0.1); }
     .header.fixed .logo {
       scale: 0.8; }
     .header.fixed .buy-btn {
-      scale: 0.8; }
+      scale: 0.9; }
 
 @media screen and (max-width: 576px) {
   .header .logo {

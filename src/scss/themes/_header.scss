@@ -70,13 +70,13 @@
   }
   &.fixed {
     background-color: $global-white;
-    padding: 0;
+    padding: 8px 0;
     box-shadow: $first-box-shadow;
     .logo{
       scale: 0.8;
     }
     .buy-btn{
-      scale: 0.8;
+      scale: 0.9;
     }
   }
 }

@@ -1,6 +1,5 @@
 .footer-wrapper{
     background-color: $footer-bg;
-    padding-top: 100px;
     padding-bottom: 20px;
     .footer-logo{
         max-width: 140px;
@@ -16,6 +15,10 @@
         p{
             a{
                 color: $primary-color;
+                transition: 0.3s all ease;
+                &:hover{
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -26,14 +29,20 @@
     }
     .footer-link{
         p{
-        padding-bottom: 16px;
+        padding-bottom: 12px;
 
         }
         li{
             a{
-                padding: 10px 0;
+                padding: 5px 0;
                 font-family: $poppins-regular;
                 font-size: 15px;
+                opacity: 0.8;
+                transition: 0.3s all ease;
+                &:hover{
+                    opacity: 1;
+                    padding-left: 5px;
+                }
             }
         }
     }

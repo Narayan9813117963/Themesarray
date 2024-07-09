@@ -15,24 +15,26 @@
         <div class="custom-container">
             <div class="row align-items-center w-100 flex-nowrap">
                 <div class="col-6 col-lg-2">
-                    <figure class="logo">
+                    <a href="../index.php"> 
+                        <figure class="logo">
                         <img src="../images/logo.png" alt="logo">
                     </figure>
+                </a>
                 </div>
                 <div class="col-lg-8 p-0 d-none d-lg-block">
                     <div class="navbar justify-content-end align-items-center">
                         <ul class="d-flex p-0 m-0">
                             <li>
-                                <a href="#">Home</a>
+                                <a href="../index.php" class="active"><span>Home</span></a>
                             </li>
                             <li>
-                                <a href="#">Demos <i class="bi bi-chevron-down"></i></a>
+                                <a href="#"><span>Demos</span> <i class="bi bi-chevron-down"></i></a>
                             </li>
                             <li>
-                                <a href="#">Product pages</a>
+                                <a href="#"><span>Product pages</span></a>
                             </li>
                             <li>
-                                <a href="#">Documentation</a>
+                                <a href="#"><span>Documentation</span></a>
                             </li>
                         </ul>
                     </div>

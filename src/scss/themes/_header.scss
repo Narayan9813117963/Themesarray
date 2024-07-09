@@ -3,32 +3,80 @@
   transition: 0.2s all ease;
   z-index: 999;
 
-    .logo {
-      max-width: 150px;
-      width: 100%;
-      transition: 0.3s all ease;
-    }
+  .logo {
+    max-width: 150px;
+    width: 100%;
+    transition: 0.3s all ease;
+  }
 
-    .navbar {
-      padding-right: 76px;
+  .navbar {
+    padding-right: 76px;
 
-      ul {
-        gap: 26px;
+    ul {
+      gap: 26px;
 
-        li {
-          a {
-            font-family: $poppins-semibold;
-            font-size: 15px;
-            color: $text-color;
-            padding: 10px;
+      li {
+        a {
+          font-family: $poppins-semibold;
+          font-size: 15px;
+          color: $text-color;
+          padding: 10px;
+
+          span {
+
+            position: relative;
+
+            &::before {
+              content: "";
+              position: absolute;
+              bottom: -5px;
+              left: 0;
+              display: block;
+              width: 100%;
+              height: 2px;
+              background-color: $primary-color;
+              -webkit-transform: scaleX(.3);
+              transform: scaleX(.3);
+              opacity: 0;
+              transition: all .3s
+            }
+          }
+
+          &:hover span::before {
+            opacity: 1;
+            background-color: $primary-color;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+            transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+          }
+
+          &.active {
+            color: $primary-color;
+
+            span {
+
+              &::after {
+                position: absolute;
+                content: "";
+                background-color: $primary-color;
+                height: 2px;
+                width: 100%;
+                left: 0;
+                bottom: -5px;
+              }
+
+            }
           }
         }
+
       }
     }
+  }
 
-    .buy-btn {
-      gap: 8px;
-    }
+  .buy-btn {
+    gap: 8px;
+  }
 
   .toggler-btn {
     .bar-icon {
@@ -51,7 +99,8 @@
     .offcanvas-header {
       .btn-close {
         font-size: 20px;
-        &:active{
+
+        &:active {
           outline: none;
           box-shadow: none;
         }
@@ -62,31 +111,37 @@
       a {
         font-family: $poppins-semibold;
         border-radius: 10px;
-        &:hover{
+
+        &:hover {
           background-color: $offcanvas-hover;
         }
       }
     }
   }
+
   &.fixed {
     background-color: $global-white;
     padding: 8px 0;
     box-shadow: $first-box-shadow;
-    .logo{
+
+    .logo {
       scale: 0.8;
     }
-    .buy-btn{
+
+    .buy-btn {
       scale: 0.9;
     }
   }
 }
+
 @media screen and (max-width: 576px) {
-  .header{
-    .logo{
+  .header {
+    .logo {
       max-width: 116px;
     }
   }
-  .hidden-nav-logo{
+
+  .hidden-nav-logo {
     max-width: 116px;
   }
 }

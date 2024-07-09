@@ -1,4 +1,4 @@
-<footer class="footer-wrapper position-relative">
+<footer class="footer-wrapper position-relative section-pad">
     <figure class="position-absolute top-0 left-0 footer-bg">
         <img src="../images/footer-left-shape.png" alt="shape">
     </figure>
@@ -18,35 +18,35 @@
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 d-flex flex-column align-items-center align-items-lg-start">
-                <ul class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0">
+                <ul class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0 w-100 gap-2">
                 <p class="footer-link-head">Community</p>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Blog</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Community</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">ideas</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Developers</a>
                     </li>
                 </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 d-flex flex-column align-items-center align-items-lg-start">
-                <ul class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0">
+                <ul class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0 w-100 gap-2">
                 <p class="footer-link-head">Company</p>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">About us</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Team</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Where to buy</a>
                     </li>
-                    <li>
+                    <li class="w-100">
                         <a href="#" class="d-block">Resellers</a>
                     </li>
                 </ul>

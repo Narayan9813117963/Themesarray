@@ -1,3 +1,18 @@
-h1{
-    font-size: 56px;
+.header{
+}
+.product-head{
+    padding-top: 126px;
+    height: 100vh;
+    p{
+        color: #939393;
+        margin-bottom: 16px;
+    }
+    .main-text{
+        gap: 22px;
+        .head-divider{
+            width: 36px;
+            height: 2px;
+            background-color: $text-color;
+        }
+    }
 }

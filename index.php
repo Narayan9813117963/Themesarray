@@ -19,11 +19,12 @@
         <img src="images/hero-triangle.png" alt="hero-animate">
     </figure>
 </main>
-<section class="small-feature custom-container-sm">
-    <div class="feat-text text-center">
+<section class="small-feature custom-container-sm section-pad">
+    <div class="head-text align-items-center text-center m-auto d-flex flex-column gap-2">
         <h2 class="m-0 fw-bold">10+</h2>
-        <h3 class="fw-bold">Fully Customizable</h3>
-        <p>Beautiful, fresh templates that save you tons of time and effort to create a compelling website</p>
+        <h3 class="m-0 fw-bold">Fully Customizable</h3>
+        <p>Immerse yourself in the latest stories that will transport you to new realms, evoke emotions, and leave
+            you craving for more.</p>
     </div>
     <ul class="feature-list m-0 p-0 d-flex justify-content-center flex-wrap">
         <li class="d-flex align-items-center">
@@ -52,7 +53,7 @@
         </li>
     </ul>
 </section>
-<section class="products-wrapper">
+<section class="products-wrapper section-pad">
     <div class="product-list">
         <div class="custom-container">
             <div class="cta filter d-flex justify-content-center align-items-center flex-wrap">
@@ -67,9 +68,10 @@
                 <a class="sports" data-filter="sports" href="#" role="button"><span
                         class="position-relative">Sports</span></a>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
-                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="product.php">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3"
+                        href="product.php">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-1.png" alt="product">
                         </figure>
@@ -126,8 +128,10 @@
 </section>
 <section class="feature-section section-pad">
     <div class="custom-container-sm">
-        <h2 class="text-center m-0 fw-bold">Why</h2>
-        <h3 class="text-center fw-bold m-auto">Choose Us for Your WordPress Themes?</h3>
+        <div class="head-text align-items-center text-center m-auto d-flex flex-column gap-2">
+            <h2 class="m-0 fw-bold">Why</h2>
+            <h3 class="m-0 fw-bold">choose Us For Your Theme</h3>
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <div
@@ -185,7 +189,7 @@
         <img src="images/testimonial-shape.png" alt="shape">
     </figure>
     <div class="custom-container-md">
-        <div class="head-text text-center w-100 w-lg-50 m-auto">
+        <div class="head-text align-items-center w-50 text-center m-auto d-flex flex-column gap-2">
             <h2 class="m-0 fw-bold">What</h2>
             <h3 class="m-0 fw-bold">Client say about us</h3>
             <p class="text-center mt-3">Get your questions answered and your issue resolved within minutes - not days!
@@ -261,9 +265,9 @@
         </div>
     </div>
 </section>
-<section class="blog-section">
+<section class="blog-section section-pad">
     <div class="custom-container">
-        <div class="head-text text-center w-100 w-lg-50 m-auto">
+        <div class="head-text align-items-center w-50 text-center m-auto d-flex flex-column gap-2 ">
             <h2 class="m-0 fw-bold">Read</h2>
             <h3 class="m-0 fw-bold">latest Story</h3>
             <p>Immerse yourself in the latest stories that will transport you to new realms, evoke emotions, and leave
@@ -280,9 +284,12 @@
                         <figure class="blog-thumb">
                             <img src="images/blog-thumb-1.png" alt="thumb">
                         </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Influencer</span>
-                            <h4>How Brands Can Break Barriers and Empower Creators Potential</h4>
+                        <div class="blog-text d-flex flex-column">
+                            <a href="#" class="fw-medium blog-tag">Influencer</a>
+                            <div class="main-head-blog-text my-2">
+                                <a href="#" class="blog-main-text">How Brands Can Break Barriers and Empower Creators
+                                    Potential</a>
+                            </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
                                 of
                                 the...</p>
@@ -294,10 +301,14 @@
                         <figure class="blog-thumb">
                             <img src="images/blog-thumb-2.png" alt="thumb">
                         </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Traveller</span>
-                            <h4>Empowering Brands: Breaking Barriers to Amplify Creator Potential</h4>
-                            <p>In today's dynamic digital landscape, empowering creators is paramount for brands looking to thrive...</p>
+                        <div class="blog-text d-flex flex-column">
+                            <a href="#" class="fw-medium blog-tag">Traveller</a>
+                            <div class="main-head-blog-text my-2">
+                                <a href="#" class="blog-main-text">Empowering Brands: Breaking Barriers to Amplify
+                                    Creator Potential</a>
+                            </div>
+                            <p>In today's dynamic digital landscape, empowering creators is paramount for brands looking
+                                to thrive...</p>
                         </div>
                     </div>
                 </div>
@@ -306,10 +317,16 @@
                         <figure class="blog-thumb">
                             <img src="images/blog-thumb-3.png" alt="thumb">
                         </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Designer</span>
-                            <h4>Championing Creatives: Strategies for Brand-Creator Empowerment</h4>
-                            <p>Embark on a journey of empowerment as brands embrace collaborative strategies to unleash the full potential...</p>
+                        <div class="blog-text d-flex flex-column">
+                            <a href="#" class="fw-medium blog-tag">Designer</a>
+                            <div class="main-head-blog-text my-2">
+
+                                <a href="#" class="blog-main-text">Championing Creatives: Strategies for Brand-Creator
+                                    Empowerment</a>
+                            </div>
+
+                            <p>Embark on a journey of empowerment as brands embrace collaborative strategies to unleash
+                                the full potential...</p>
                         </div>
                     </div>
                 </div>
@@ -318,9 +335,13 @@
                         <figure class="blog-thumb">
                             <img src="images/blog-thumb-1.png" alt="thumb">
                         </figure>
-                        <div class="blog-text">
-                            <span class="fw-medium">Influencer</span>
-                            <h4>How Brands Can Break Barriers and Empower Creators</h4>
+                        <div class="blog-text d-flex flex-column">
+                            <a href="#" class="fw-medium blog-tag">Influencer</a>
+                            <div class="main-head-blog-text my-2">
+
+                                <a href="#" class="blog-main-text">How Brands Can Break Barriers and Empower
+                                    Creators</a>
+                            </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
                                 of
                                 the...</p>

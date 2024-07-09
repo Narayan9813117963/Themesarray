@@ -69,7 +69,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
-                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
+                    <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="product.php">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-1.png" alt="product">
                         </figure>

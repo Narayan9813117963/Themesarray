@@ -235,7 +235,8 @@ img {
         .products-wrapper .product-list .category-items .product-card:hover .product-img {
           scale: 1.05; }
       .products-wrapper .product-list .category-items .product-card p {
-        font-family: "poppins-semiBold"; }
+        font-family: "poppins-semiBold";
+        padding-top: 12px; }
 
 .is-animated {
   animation: .6s zoom-in; }
@@ -363,9 +364,7 @@ img {
     max-width: 260px; }
   .blog-card {
     max-width: 260px !important;
-    min-height: unset !important; }
-  .footer-wrapper {
-    padding-top: 56px !important; } }
+    min-height: unset !important; } }
 
 .header {
   padding: 20px 0;

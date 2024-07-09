@@ -233,6 +233,7 @@
 
                 p {
                     font-family: $poppins-semibold;
+                    padding-top: 12px;
                 }
             }
         }
@@ -452,9 +453,4 @@
         max-width: 260px !important;
         min-height: unset !important;
     }
-
-    .footer-wrapper {
-        padding-top: 56px !important;
-    }
-
 }

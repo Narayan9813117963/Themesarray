@@ -118,22 +118,6 @@
     p {
         padding: 20px 0;
     }
-
-    .feature-list {
-        gap: 32px;
-
-        li {
-            gap: 6px;
-            font-family: $poppins-semibold;
-            font-size: 14px;
-
-            .feature-icon {
-                width: 24px;
-
-            }
-        }
-
-    }
 }
 
 
@@ -198,7 +182,7 @@
 
     .product-list {
         .row {
-            row-gap: 32px;
+            row-gap: 64px;
 
         }
 

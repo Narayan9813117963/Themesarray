@@ -23,42 +23,42 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 d-flex flex-column align-items-center align-items-lg-start">
                 <ul
-                    class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0 w-100 gap-2">
+                    class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-md-start text-center text-sm-start mt-4 mt-sm-0 w-100 gap-2">
                     <p class="footer-link-head">Community</p>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Blog</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Community</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">ideas</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Developers</a>
                     </li>
                 </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-2 d-flex flex-column align-items-center align-items-lg-start">
                 <ul
-                    class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-sm-start mt-3 mt-sm-0 w-100 gap-2">
+                    class="m-0 p-0 footer-link d-flex flex-column align-items-center align-items-md-start text-center text-sm-start mt-4 mt-sm-0 w-100 gap-2">
                     <p class="footer-link-head">Company</p>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">About us</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Team</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Where to buy</a>
                     </li>
-                    <li class="w-100">
+                    <li>
                         <a href="#" class="d-block">Resellers</a>
                     </li>
                 </ul>
             </div>
             <div
-                class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-md-start mt-3 mt-sm-0">
+                class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-md-start mt-4 mt-md-0">
                 <p class="footer-link-head">Follow us on</p>
                 <ul class="m-0 p-0 d-flex social-link">
                     <li>

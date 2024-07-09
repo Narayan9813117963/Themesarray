@@ -26,50 +26,12 @@
         <p>Immerse yourself in the latest stories that will transport you to new realms, evoke emotions, and leave
             you craving for more.</p>
     </div>
-    <ul class="feature-list m-0 p-0 d-flex justify-content-center flex-wrap">
-        <li class="d-flex align-items-center">
-            <figure class="feature-icon">
-                <img src="images/icons/layout.svg" alt="layout-icon">
-            </figure>
-            8+ Layouts
-        </li>
-        <li class="d-flex align-items-center">
-            <figure class="feature-icon">
-                <img src="images/icons/pages.svg" alt="pages-icon">
-            </figure>
-            10+ Pages
-        </li>
-        <li class="d-flex align-items-center">
-            <figure class="feature-icon">
-                <img src="images/icons/header-icon.svg" alt="header-icon">
-            </figure>
-            10+ Header
-        </li>
-        <li class="d-flex align-items-center">
-            <figure class="feature-icon">
-                <img src="images/icons/footer-icon.svg" alt="footer-icon">
-            </figure>
-            10+ Footer
-        </li>
-    </ul>
 </section>
 <section class="products-wrapper section-pad">
     <div class="product-list">
         <div class="custom-container">
-            <div class="cta filter d-flex justify-content-center align-items-center flex-wrap">
-                <a class="all active" data-filter="all" href="#" role="button"><span
-                        class="position-relative">All</span></a>
-                <a class="fashion" data-filter="fashion" href="#" role="button"><span
-                        class="position-relative">Fashion</span></a>
-                <a class="ecommerce" data-filter="ecommerce" href="#" role="button"><span
-                        class="position-relative">Ecommerce</span></a>
-                <a class="news" data-filter="news" href="#" role="button"><span
-                        class="position-relative">News</span></a>
-                <a class="sports" data-filter="sports" href="#" role="button"><span
-                        class="position-relative">Sports</span></a>
-            </div>
             <div class="row justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3"
                         href="product.php">
                         <figure class="product-img">
@@ -78,8 +40,7 @@
                         <p>The words</p>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items fashion"
-                    data-category="fashion">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items fashion">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-2.png" alt="product">
@@ -87,8 +48,7 @@
                         <p>TA Newspaper</p>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items ecommerce"
-                    data-category="ecommerce">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items ecommerce">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-3.png" alt="product">
@@ -96,8 +56,7 @@
                         <p>The words</p>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items fashion"
-                    data-category="fashion">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items fashion">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-4.png" alt="product">
@@ -105,7 +64,7 @@
                         <p>The words Pro</p>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news" data-category="news">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items news">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-5.png" alt="product">
@@ -113,8 +72,7 @@
                         <p>TA Newspapaer</p>
                     </a>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items sports"
-                    data-category="sports">
+                <div class="col-12 col-md-6 col-lg-4 justify-content-center category-items sports">
                     <a class="product-card d-flex flex-column justify-content-center align-items-center gap-3" href="#">
                         <figure class="product-img">
                             <img src="images/products-thumb/product-6.png" alt="product">

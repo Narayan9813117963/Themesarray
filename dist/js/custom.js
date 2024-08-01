@@ -51,3 +51,42 @@ $('.blog-slider').slick({
     },
   ]
 });
+document.addEventListener('DOMContentLoaded', function () {
+  const personalCheckbox = document.getElementById('flexCheckChecked');
+  const commercialCheckbox = document.getElementById('flexCheckDefault');
+  const personalDiv = document.querySelector('.personal');
+  const commercialDiv = document.querySelector('.commercial');
+
+  function toggleActiveClass() {
+      if (personalCheckbox.checked) {
+          personalDiv.classList.add('active');
+          commercialDiv.classList.remove('active');
+      } else {
+          personalDiv.classList.remove('active');
+      }
+
+      if (commercialCheckbox.checked) {
+          commercialDiv.classList.add('active');
+          personalDiv.classList.remove('active');
+      } else {
+          commercialDiv.classList.remove('active');
+      }
+  }
+
+  personalCheckbox.addEventListener('change', function () {
+      if (this.checked) {
+          commercialCheckbox.checked = false;
+      }
+      toggleActiveClass();
+  });
+
+  commercialCheckbox.addEventListener('change', function () {
+      if (this.checked) {
+          personalCheckbox.checked = false;
+      }
+      toggleActiveClass();
+  });
+
+  // Initial call to set the correct classes based on initial state
+  toggleActiveClass();
+});
